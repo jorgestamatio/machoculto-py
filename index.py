@@ -47,7 +47,7 @@ background-color: #f0f0f0;
 <body>
   <div class='form'>
     <h1>Hello, {0}!</h1>
-    <form action='http://jstamatio.com/cgi-bin/git/test.pl' method='POST'>
+    <form action='http://jstamatio.com/cgi-bin/machoculto-py/index.py' method='POST'>
       <input type='text' name='username' placeholder='My name is ...'>
       <input type='submit' value='Say my name, Macho!'>
     </form>
