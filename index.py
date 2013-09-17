@@ -3,18 +3,16 @@
 
 ## enable debugging
 import cgitb
-import cgi
 cgitb.enable()
 
-
-
-#import cgi
+#import cgi for processing the post requests
+import cgi
 form = cgi.FieldStorage()
+
+#get the username post, if none is set, use "world"
 user = form.getfirst('username','world')
 
-if user == "":
-  user = "world"
-
+#Print everything
 print """\
 Content-Type: text/html;charset=utf-8\n
 <html>
