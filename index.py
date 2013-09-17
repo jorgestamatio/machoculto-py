@@ -51,7 +51,7 @@ background-color: #f0f0f0;
     <h1>Hello, {0}!</h1>
     <form action='http://jstamatio.com/cgi-bin/git/test.pl' method='POST'>
       <input type='text' name='username' placeholder='My name is ...'>
-      <input type='submit' value='Say my name, Bitch!'>
+      <input type='submit' value='Say my name, Macho!'>
     </form>
   </div>
 </body>
